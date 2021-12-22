@@ -1,28 +1,33 @@
+/* first container on the page, covers the main heading and sub heading */
 header {
 background-color: #012a4a;
 margins: 5px;
 border-radius: 5%;
-padding: 5%;
+padding: 2%;
 }
 
+/* heading 1 and 3 will have the same formatting */
 h1, h3 {
 text-align: center;
 color: #a9d6e5;
 font-family: Arial, Helvetica, sans-serif;
 height: 40px;
 }
+/* headings 2, organized lists, unorganized lists, list items, and the main container will have the same formatting */
 h2, ol, ul, li, main {
 text-align: center;
 background-color: #e3f2fd;
 color: #012a4a;
 list-style-position: inside;
 }
+/* the footer is small and centered with credit to the author */
 footer {
 background-color: #012a4a;
 text-align: center;
 color: #a9d6e5;
 font-size: 12px;
 }
+/* pseudo links that apply to the links in the contact section of the HTML page */
 a:link { color: #001233;    }
 a:visited { color: #64b5f6; }
 a:hover { color: #0ead69;   }
