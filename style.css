@@ -26,6 +26,7 @@ background-color: #012a4a;
 text-align: center;
 color: #a9d6e5;
 font-size: 12px;
+ padding: 2%;
 }
 /* pseudo links that apply to the links in the contact section of the HTML page */
 a:link { color: #001233;    }
